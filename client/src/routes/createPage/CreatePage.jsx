@@ -7,7 +7,7 @@ import Editor from "../../components/editor/Editor";
 import useEditorStore from "../../utils/editorStore";
 import apiRequest from "../../utils/apiRequests";
 import { useMutation, useQuery } from "@tanstack/react-query";
-import BoardForm from "./boardForm";
+import BoardForm from "./BoardForm";
 
 const addPost = async (post) => {
   const res = await apiRequest.post("/pins", post);
