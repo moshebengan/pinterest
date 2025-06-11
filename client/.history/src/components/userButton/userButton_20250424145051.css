@@ -1,0 +1,24 @@
+.userButton {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.userButton img {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.userButton .arrow {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+
+.loginLink {
+    font-size: 18px;
+    padding: 16px;
+    border-radius: 32px;
+}

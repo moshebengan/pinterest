@@ -1,0 +1,6 @@
+.topBar {
+    margin: 16px 0px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}

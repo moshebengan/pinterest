@@ -1,0 +1,43 @@
+.editor {
+    display: flex;
+    gap: 16px;
+}
+
+/* Left */
+.layers {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.layers h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.layers p {
+    font-size: 14px;
+    color: gray;
+    margin-top: 4px;
+}
+
+.layer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: 300;
+    border-radius: 8px;
+
+}
+
+.workspace {
+    flex: 3;
+}
+
+.options {
+    flex: 1;
+}

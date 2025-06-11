@@ -1,0 +1,11 @@
+.profilePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.profileImage {
+    width: 100px;
+    height: 100px;
+}

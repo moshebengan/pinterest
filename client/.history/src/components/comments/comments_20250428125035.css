@@ -1,0 +1,49 @@
+.comments {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 0;
+}
+
+.commentList {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+  
+}
+
+.comment {
+    display: flex;
+    gap: 16px;
+}
+
+.comment img {
+    width: 32px;
+    height: 32px;
+}
+
+.commentForm {
+    background-color: #f1f1f1;
+    padding: 16px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.commentForm input {
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.emoji {
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+}

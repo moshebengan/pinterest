@@ -1,0 +1,27 @@
+import './userProfilePage.css'
+import Image from "../../components/image/image";
+
+const UserProfilePage = () => {
+  return (
+    <div className="profilePage">
+      <Image path="/general/noAvatar.png" alt="" />
+      <h1 className="profileName">John Doe</h1>
+      <span className="profileUsername">@johnDoe</span>
+      <div className="followCounts">10 followers · 10 following </div>
+      <div className="profileInteractions">
+        <Image path="/general/share.svg" alt="" />
+        <div className="profileButtons">
+          <button>Message</button>
+          <button>Follow</button>
+        </div>
+        <Image path="/general/more.svg" alt="" />
+      </div>
+      <div className="profileOptions">
+        <span>Created</span>
+        <span>Saved</span>
+      </div>
+    </div>
+  );
+};
+
+export default UserProfilePage;
